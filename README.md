@@ -72,6 +72,7 @@ eino/
 
 - `experiments/custom-retriever/` — experimenting with a BM25-based retriever
 - `experiments/graph-loops/` — testing cyclic graph patterns for multi-step reasoning
+- `experiments/streaming-debug/` — adding verbose logging middleware to trace streaming chunk flow; useful for debugging dropped tokens
 
 ## Contributing
 
