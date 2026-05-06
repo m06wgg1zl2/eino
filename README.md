@@ -60,12 +60,18 @@ eino/
 ├── compose/           # Graph and chain composition
 ├── flow/              # Pre-built flow patterns
 ├── schema/            # Shared data schemas
+├── experiments/       # My WIP experiments (not for upstream)
 └── examples/          # Usage examples
 ```
 
 ## Personal Notes
 
 > **Note (personal fork):** I'm using this primarily to experiment with the graph-based orchestration and custom retriever implementations. The `examples/` directory contains my own test cases alongside the upstream examples. Anything under `experiments/` is work-in-progress and not intended for upstream.
+
+### My Experiments
+
+- `experiments/custom-retriever/` — experimenting with a BM25-based retriever
+- `experiments/graph-loops/` — testing cyclic graph patterns for multi-step reasoning
 
 ## Contributing
 
