@@ -75,12 +75,17 @@ eino/
 - `experiments/streaming-debug/` — adding verbose logging middleware to trace streaming chunk flow; useful for debugging dropped tokens
 - `experiments/ollama-local/` — wiring up a local Ollama instance as a drop-in model backend; handy for offline dev without burning API credits
 - `experiments/context-window/` — tracking token usage across multi-turn conversations to avoid hitting context limits silently
+- `experiments/retry-middleware/` — exploring a simple retry wrapper around model calls to handle transient API errors gracefully
+
+### Useful References
+
+- [Upstream docs](https://github.com/cloudwego/eino/tree/main/docs)
+- [Eino examples repo](https://github.com/cloudwego/eino-examples)
+- My notes on graph orchestration patterns: `docs/personal-notes.md` (not tracked)
 
 ## Contributing
 
 We welcome contributions! Please see our [Pull Request Template](.github/PULL_REQUEST_TEMPLATE.md) and follow the existing code style.
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feat/my-feature`)
-3. Commit your changes following our [commit conventions](.github/.commit-rules.json)
-4. Push to the branch and open a Pull Re
+2. Create your feature branch (`git checkout -b feat/my-feature`
