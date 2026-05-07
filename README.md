@@ -74,6 +74,7 @@ eino/
 - `experiments/graph-loops/` — testing cyclic graph patterns for multi-step reasoning
 - `experiments/streaming-debug/` — adding verbose logging middleware to trace streaming chunk flow; useful for debugging dropped tokens
 - `experiments/ollama-local/` — wiring up a local Ollama instance as a drop-in model backend; handy for offline dev without burning API credits
+- `experiments/context-window/` — tracking token usage across multi-turn conversations to avoid hitting context limits silently
 
 ## Contributing
 
@@ -82,12 +83,4 @@ We welcome contributions! Please see our [Pull Request Template](.github/PULL_RE
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feat/my-feature`)
 3. Commit your changes following our [commit conventions](.github/.commit-rules.json)
-4. Push to the branch and open a Pull Request
-
-## License
-
-This project is licensed under the Apache License 2.0 — see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-Th
+4. Push to the branch and open a Pull Re
