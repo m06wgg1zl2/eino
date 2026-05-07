@@ -73,6 +73,7 @@ eino/
 - `experiments/custom-retriever/` — experimenting with a BM25-based retriever
 - `experiments/graph-loops/` — testing cyclic graph patterns for multi-step reasoning
 - `experiments/streaming-debug/` — adding verbose logging middleware to trace streaming chunk flow; useful for debugging dropped tokens
+- `experiments/ollama-local/` — wiring up a local Ollama instance as a drop-in model backend; handy for offline dev without burning API credits
 
 ## Contributing
 
@@ -89,4 +90,4 @@ This project is licensed under the Apache License 2.0 — see the [LICENSE](LICE
 
 ## Acknowledgements
 
-This project is a fork of [cloudwego/eino](https://github.com/cloudwego/eino). We are grateful to the original authors and contributors.
+Th
