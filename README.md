@@ -76,16 +76,10 @@ eino/
 - `experiments/ollama-local/` — wiring up a local Ollama instance as a drop-in model backend; handy for offline dev without burning API credits
 - `experiments/context-window/` — tracking token usage across multi-turn conversations to avoid hitting context limits silently
 - `experiments/retry-middleware/` — exploring a simple retry wrapper around model calls to handle transient API errors gracefully
+- `experiments/tool-call-trace/` — logging tool call inputs/outputs end-to-end; helps spot cases where the model hallucinates tool arguments
 
 ### Useful References
 
 - [Upstream docs](https://github.com/cloudwego/eino/tree/main/docs)
-- [Eino examples repo](https://github.com/cloudwego/eino-examples)
-- My notes on graph orchestration patterns: `docs/personal-notes.md` (not tracked)
-
-## Contributing
-
-We welcome contributions! Please see our [Pull Request Template](.github/PULL_REQUEST_TEMPLATE.md) and follow the existing code style.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feat/my-feature`
+- [Eino examples](https://github.com/cloudwego/eino-examples)
+- [CloudWeGo blog posts on Eino](https://www.cloudwego.io/blog/)
