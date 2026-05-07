@@ -80,4 +80,4 @@ eino/
 
 ### Upstream Sync
 
-I try to rebase onto `cloudwego/eino@main` roughly every couple of weeks. Last synced: **2025-06-10**.
+> Last synced with upstream (`cloudwego/eino`) on **2025-07-01**. Run `git fetch upstream && git merge upstream/main` to pull in new changes.
