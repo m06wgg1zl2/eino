@@ -80,4 +80,4 @@ eino/
 
 ### Upstream Sync
 
-I try to rebase onto `cloudwego/eino:main` roughly every couple of weeks. Last synced: **2025-06-10**.
+I periodically rebase this fork against `cloudwego/eino:main`. Last synced: **2025-06-10**.
