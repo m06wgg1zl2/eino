@@ -78,7 +78,6 @@ eino/
 - `experiments/retry-middleware/` — exploring a simple retry wrapper around model calls to handle transient API errors gracefully
 - `experiments/tool-call-trace/` — logging tool call inputs/outputs end-to-end; helps spot cases where the model hallucinates tool arguments
 
-### TODO / Open Questions
+### Upstream Sync
 
-- [ ] Figure out if graph-loops experiment can be reconciled with upstream's DAG-only assumption
-- [ ] Check whether the retry-middleware approach conflicts with any built-in retry logic in the model layer
+I try to rebase onto `cloudwego/eino:main` roughly every couple of weeks. Last synced: **2025-06-10**.
