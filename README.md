@@ -76,8 +76,8 @@ eino/
 - `experiments/ollama-local/` — wiring up a local Ollama instance as a drop-in model backend; handy for offline dev without burning API credits
 - `experiments/context-window/` — tracking token usage across multi-turn conversations to avoid hitting context limits silently
 - `experiments/retry-middleware/` — exploring a simple retry wrapper around model calls to handle transient API errors gracefully
-- `experiments/tool-call-trace/` — logging tool call inputs/outputs end-to-end; helps spot cases where the model hallucinates tool arguments
+- `experiments/tool-call-trace/` — logging tool call inputs/outputs end-to-end; helps spot cases where the model hallucinates tool arguments or silently drops a call
 
 ### Upstream Sync
 
-I periodically rebase this fork against `cloudwego/eino:main`. Last synced: **2025-06-10**.
+I periodically rebase onto `cloudwego/eino` main. Last synced: **2025-06-10**. If anything here looks broken, check the upstream changelog first.
